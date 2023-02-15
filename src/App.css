@@ -12,7 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  background-color: red;
+}
 
+.fff {
+  font-family: 'Mr De Haviland', cursive;
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg {
+  background-color:linear-gradient(to bottom, #ff6b6b, #ffb6b9);
+  background-size: cover;
 }
